@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h2>⚙️ Admin Dashboard</h2>
+
+  <!-- Now Serving -->
+  <div class="card" style="background:#2d3e8b;color:white;text-align:center;">
+    <h3>Now Serving</h3>
+    <h1 id="nowServing">-</h1>
+  </div>
+
+  <!-- Next Button -->
+  <div style="text-align:center;margin:20px;">
+    <button onclick="nextCustomer()">Next ▶</button>
+  </div>
+
+  <!-- Queue List -->
+  <h3>Queue List</h3>
+  <div id="queueList"></div>
+
+</div>
+
+<script src="../js/admin.js"></script>
+</body>
+</html>
